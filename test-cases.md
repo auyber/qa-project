@@ -168,7 +168,7 @@ Verificar se o sistema impede o cadastro quando o email informado possui formato
 **Resultado esperado:**  
 - O cadastro não deve ser realizado  
 - O sistema deve permanecer na tela de cadastro  
-- Deve ser exibida a mensagem "Invalid email."  
+- O campo de email deve ser identificado como inválido 
 
 ---
 
