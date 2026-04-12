@@ -236,3 +236,54 @@ Requisição realizada para observar o comportamento da API ao receber valores e
 - A API aceitou os dados enviados sem restrições
 - Retornou os mesmos valores com um ID gerado
 - Não houve limitação de tamanho ou validação adicional do conteúdo
+
+---
+
+## Exercício 10 - PUT atualização de recurso
+
+**Endpoint:**  
+https://jsonplaceholder.typicode.com/posts/1
+
+**Método:**  
+PUT
+
+**Body enviado:**
+{
+  "id": 1,
+  "title": "Updated QA Test",
+  "body": "Updated content",
+  "userId": 1
+}
+
+**Descrição:**  
+Requisição realizada para simular a atualização de um recurso existente.
+
+**Validações realizadas:**  
+- Status code 200
+- Retorno em formato JSON
+- Dados retornados correspondem aos valores atualizados
+
+**Resultado obtido:**  
+- A API retornou os dados atualizados corretamente
+- A atualização é simulada, pois a API não persiste alterações
+
+---
+
+## Exercício 11 - DELETE remoção de recurso
+
+**Endpoint:**  
+https://jsonplaceholder.typicode.com/posts/1
+
+**Método:**  
+DELETE
+
+**Descrição:**  
+Requisição realizada para simular a exclusão de um recurso existente.
+
+**Validações realizadas:**  
+- Status code 200
+- Resposta vazia
+
+**Resultado obtido:**  
+- A API respondeu corretamente à requisição de exclusão
+- A remoção é simulada, pois a API não persiste alterações
