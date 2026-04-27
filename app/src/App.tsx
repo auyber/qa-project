@@ -198,6 +198,7 @@ function App() {
                 onChange={(e) =>
                   setLoginData({ ...loginData, email: e.target.value })
                 }
+                id="UserName"
               />
               <input
                 style={inputStyle}
@@ -207,6 +208,7 @@ function App() {
                 onChange={(e) =>
                   setLoginData({ ...loginData, password: e.target.value })
                 }
+                id="Password"
               />
               <button style={buttonStyle} type="submit">
                 Sign In
@@ -237,6 +239,7 @@ function App() {
                 onChange={(e) =>
                   setRegisterData({ ...registerData, name: e.target.value })
                 }
+                id="Name"
               />
               <input
                 style={inputStyle}
@@ -246,6 +249,7 @@ function App() {
                 onChange={(e) =>
                   setRegisterData({ ...registerData, email: e.target.value })
                 }
+                id="email"
               />
               <input
                 style={inputStyle}
@@ -255,6 +259,7 @@ function App() {
                 onChange={(e) =>
                   setRegisterData({ ...registerData, password: e.target.value })
                 }
+                id="PasswordAccount"
               />
               <input
                 style={inputStyle}
@@ -267,6 +272,7 @@ function App() {
                     confirmPassword: e.target.value,
                   })
                 }
+                id="Password_validation"
               />
               <button style={buttonStyle} type="submit">
                 Register
